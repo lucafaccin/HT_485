@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "HT485")(type "KiCad")(uri "${KIPRJMOD}/lib/HT485.kicad_sym")(options "")(descr ""))
+  (lib (name "TC2030")(type "KiCad")(uri "${KIPRJMOD}/lib/TC2030.kicad_sym")(options "")(descr ""))
+)
