@@ -1,4 +1,4 @@
-20285414132063535
+20288729391886178
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52808,6 +52808,13 @@ Inductor
 2
 2
 HT485
+SF2
+
+
+0
+0
+0
+HT485
 SMD-4
 
 
@@ -52828,6 +52835,13 @@ SW_FSM14J
 0
 4
 4
+HT485
+Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm
+Sensirion DFN-8 SHT3x-DIS (https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf)
+sensirion dfn nolead
+0
+10
+9
 HT485
 TE_1217861-1
 
