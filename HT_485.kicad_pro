@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|165500000|113701000|56ba7a49-25e1-45ea-97b4-5639773d387d|616cba57-3f99-4fc7-975d-354ee3022f9d",
+        "silk_over_copper|165500000|131701000|56ba7a49-25e1-45ea-97b4-5639773d387d|b6ed0874-8c15-4525-9ff1-a509f2c9195e"
+      ],
       "meta": {
         "version": 2
       },
@@ -386,8 +389,11 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "nets": [
+          "+15V",
           "+24V",
           "+3V3",
+          "+5V",
+          "-12V",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",

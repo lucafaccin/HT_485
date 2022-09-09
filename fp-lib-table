@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "HT485")(type "KiCad")(uri "${KIPRJMOD}/lib/HT485.pretty")(options "")(descr ""))
   (lib (name "TC2030")(type "KiCad")(uri "${KIPRJMOD}/lib/TC2030.pretty")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/lib/espressif/footprints/Espressif.pretty")(options "")(descr ""))
 )
