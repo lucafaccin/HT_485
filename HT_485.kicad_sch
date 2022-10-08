@@ -3810,7 +3810,7 @@
     (in_bom yes) (on_board yes)
     (uuid 2ea8c421-e022-4b53-ab9d-747574ed23fe)
     (property "Reference" "R17" (id 0) (at 109.855 201.295 90))
-    (property "Value" "3k6 1%" (id 1) (at 109.855 205.74 90))
+    (property "Value" "3K3 1%" (id 1) (at 109.855 205.74 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 109.855 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3861,7 +3861,7 @@
     (property "Reference" "R12" (id 0) (at 88.9 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470R 1%" (id 1) (at 84.455 212.09 90)
+    (property "Value" "430R 1%" (id 1) (at 84.455 212.09 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 87.63 208.28 0)
@@ -6086,7 +6086,7 @@
       (reference "R11") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/37a4da1b-b23e-4c99-92c5-1edd1e260509"
-      (reference "R12") (unit 1) (value "470R 1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R12") (unit 1) (value "430R 1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/9b2c5abb-3c78-49d8-8ccb-d7a77fc4039f"
       (reference "R13") (unit 1) (value "1K 1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -6101,7 +6101,7 @@
       (reference "R16") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/2ea8c421-e022-4b53-ab9d-747574ed23fe"
-      (reference "R17") (unit 1) (value "3k6 1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R17") (unit 1) (value "3K3 1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/7ce32af9-e8f8-4200-8b4f-d83e817f1fc3"
       (reference "R18") (unit 1) (value "10K 1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
