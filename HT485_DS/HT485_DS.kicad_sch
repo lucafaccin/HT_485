@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Digital Umidity Temperature Sensor over 485")
+    (date "2022-10-08")
+    (rev "1.0.0.0")
+    (company "RCF Srls")
+    (comment 1 "Luca Faccin")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x06_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 7.62 0)
@@ -439,7 +447,7 @@
   (symbol (lib_id "power:GND") (at 114.935 64.135 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 03f49843-24c5-456e-ad6b-bcac91abf32b)
-    (property "Reference" "#PWR?" (id 0) (at 108.585 64.135 0)
+    (property "Reference" "#PWR03" (id 0) (at 108.585 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 107.95 64.135 90)
@@ -457,7 +465,7 @@
   (symbol (lib_id "power:GND") (at 105.41 81.28 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 08e80f4d-2315-4f23-b828-a20b6034c2a4)
-    (property "Reference" "#PWR?" (id 0) (at 99.06 81.28 0)
+    (property "Reference" "#PWR02" (id 0) (at 99.06 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 98.425 81.28 90)
@@ -475,13 +483,13 @@
   (symbol (lib_id "Connector:Conn_01x06_Female") (at 186.055 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3b9709c1-8711-4f3f-9b84-45538d0df4e3)
-    (property "Reference" "J?" (id 0) (at 187.96 40.0049 0)
+    (property "Reference" "J1" (id 0) (at 187.96 40.0049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "H/T Sensor" (id 1) (at 187.96 42.5449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal" (id 2) (at 186.055 40.005 0)
+    (property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" (id 2) (at 186.055 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 186.055 40.005 0)
@@ -498,7 +506,7 @@
   (symbol (lib_id "Sensor_Humidity:SHT31A-DIS") (at 125.095 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4da6a415-d5b3-4c74-9e8c-aa9f9ea66912)
-    (property "Reference" "U?" (id 0) (at 127.1144 68.58 0)
+    (property "Reference" "U1" (id 0) (at 127.1144 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SHT31A-DIS" (id 1) (at 127.1144 71.12 0)
@@ -524,7 +532,7 @@
   (symbol (lib_id "power:GND") (at 125.095 90.17 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4f41dfd8-8d87-4bcc-9662-46132fb21c8c)
-    (property "Reference" "#PWR?" (id 0) (at 125.095 96.52 0)
+    (property "Reference" "#PWR05" (id 0) (at 125.095 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 125.095 97.155 90)
@@ -542,7 +550,7 @@
   (symbol (lib_id "power:GND") (at 167.005 47.625 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9e5f17df-9355-4923-b26c-d7956244fcb1)
-    (property "Reference" "#PWR?" (id 0) (at 160.655 47.625 0)
+    (property "Reference" "#PWR07" (id 0) (at 160.655 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 160.02 47.625 90)
@@ -560,7 +568,7 @@
   (symbol (lib_id "power:+3V3") (at 125.095 64.135 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b3252cf8-dd94-4db6-a9a7-350753bd1913)
-    (property "Reference" "#PWR?" (id 0) (at 125.095 67.945 0)
+    (property "Reference" "#PWR04" (id 0) (at 125.095 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 125.095 55.88 90)
@@ -578,7 +586,7 @@
   (symbol (lib_id "power:GND") (at 105.41 76.2 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cf8dab28-2398-439b-8910-894e9189b574)
-    (property "Reference" "#PWR?" (id 0) (at 99.06 76.2 0)
+    (property "Reference" "#PWR01" (id 0) (at 99.06 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 98.425 76.2 90)
@@ -596,7 +604,7 @@
   (symbol (lib_id "power:+3V3") (at 167.005 34.925 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid df6db40f-29ff-4073-9ed3-9c54e9ef4c92)
-    (property "Reference" "#PWR?" (id 0) (at 170.815 34.925 0)
+    (property "Reference" "#PWR06" (id 0) (at 170.815 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 158.75 34.925 90)
@@ -614,7 +622,7 @@
   (symbol (lib_id "Device:C_Small") (at 117.475 64.135 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f713eed1-d550-4808-9bcd-0068d047988a)
-    (property "Reference" "C?" (id 0) (at 114.935 68.58 0)
+    (property "Reference" "C1" (id 0) (at 114.935 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 120.015 71.12 0)
@@ -635,35 +643,35 @@
   )
 
   (symbol_instances
-    (path "/03f49843-24c5-456e-ad6b-bcac91abf32b"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/cf8dab28-2398-439b-8910-894e9189b574"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
     (path "/08e80f4d-2315-4f23-b828-a20b6034c2a4"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4f41dfd8-8d87-4bcc-9662-46132fb21c8c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/9e5f17df-9355-4923-b26c-d7956244fcb1"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/03f49843-24c5-456e-ad6b-bcac91abf32b"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
     (path "/b3252cf8-dd94-4db6-a9a7-350753bd1913"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR04") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/cf8dab28-2398-439b-8910-894e9189b574"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/4f41dfd8-8d87-4bcc-9662-46132fb21c8c"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
     )
     (path "/df6db40f-29ff-4073-9ed3-9c54e9ef4c92"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR06") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/9e5f17df-9355-4923-b26c-d7956244fcb1"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
     (path "/f713eed1-d550-4808-9bcd-0068d047988a"
-      (reference "C?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/3b9709c1-8711-4f3f-9b84-45538d0df4e3"
-      (reference "J?") (unit 1) (value "H/T Sensor") (footprint "Connector_JST:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal")
+      (reference "J1") (unit 1) (value "H/T Sensor") (footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical")
     )
     (path "/4da6a415-d5b3-4c74-9e8c-aa9f9ea66912"
-      (reference "U?") (unit 1) (value "SHT31A-DIS") (footprint "Sensor_Humidity:Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm")
+      (reference "U1") (unit 1) (value "SHT31A-DIS") (footprint "Sensor_Humidity:Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm")
     )
   )
 )
