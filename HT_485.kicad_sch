@@ -4870,7 +4870,7 @@
     (property "Reference" "R13" (id 0) (at 90.17 216.5349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "510R %" (id 1) (at 90.17 219.0749 0)
+    (property "Value" "220R 1%" (id 1) (at 90.17 219.0749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 87.63 217.805 0)
@@ -6089,7 +6089,7 @@
       (reference "R12") (unit 1) (value "220R 1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/9b2c5abb-3c78-49d8-8ccb-d7a77fc4039f"
-      (reference "R13") (unit 1) (value "510R %") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R13") (unit 1) (value "220R 1%") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/c2ad6d7a-43e9-4769-ab7d-5b48aedd331e"
       (reference "R14") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
