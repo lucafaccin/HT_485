@@ -1,0 +1,5 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+C1,C_0805_2012Metric,1,100nF,
+J1,JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical,1,H/T Sensor,
+SF2_PROTECTION,SF2,1,SF2,
+U1,Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm,1,SHT31A-DIS,
