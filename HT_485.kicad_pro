@@ -390,6 +390,7 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "nets": [
+          "+15V",
           "+24V",
           "+3V3",
           "+5V",
